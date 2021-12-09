@@ -603,6 +603,11 @@ b {
     margin-top: 1.2rem;
 }
 
+.footer ul {
+    list-style: none;
+    padding-left: 0rem;
+}
+
 @media (max-width: 560px) {
 
     header.masthead {
@@ -882,8 +887,8 @@ b {
     }
 }
 
-@media only screen (min-width:560) and (max-width:7380) {
-    .ECO{
+@media (min-width:560) and (max-width:738) {
+    .ECO {
         min-height: 1200vh;
     }
- }
+}

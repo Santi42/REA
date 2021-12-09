@@ -276,7 +276,7 @@ header.masthead a {
 /*Pagina QH */
 
 .Section-QH-1 {
-    background-image: url("../Image/QH/fondo-qh.jpg");
+    background-image: url("../Image/qh/fondoqh.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -362,7 +362,7 @@ ol.carousel-indicators {
 }
 
 .ECO {
-    background-image: url("../Image/fondo\ ECO.jpg");
+    background-image: url("../Image/qh/fondoeco.jpg");
 
 }
 
@@ -375,7 +375,7 @@ ol.carousel-indicators {
 }
 
 .PCI {
-    background-image: url("../Image/QH/Fondo\ PCIC.jpg");
+    background-image: url("../Image/qh/Fondo\ PCIC.jpg");
 
 }
 
@@ -396,7 +396,7 @@ ol.carousel-indicators {
 }
 
 .JD {
-    background-image: url("../Image/QH/Fondo\ JDC.jpg");
+    background-image: url("../Image/qh/Fondo\ JDC.jpg");
 }
 
 .JD h3 {
@@ -408,7 +408,7 @@ ol.carousel-indicators {
 }
 
 .GTM {
-    background-image: url("../Image/QH/Fondo\ GTMC.jpg");
+    background-image: url("../Image/qh/Fondo\ GTMC.jpg");
 }
 
 .GTM h3 {
@@ -420,7 +420,7 @@ ol.carousel-indicators {
 }
 
 .TD {
-    background-image: url("../Image/QH/Fondo\ TDC.jpg");
+    background-image: url("../Image/qh/Fondo TDC.jpg");
 }
 
 .TD h3,
@@ -433,7 +433,7 @@ b {
 }
 
 .CON {
-    background-image: url("../Image/QH/Fondo\ CONC.jpg");
+    background-image: url("../Image/qh/Fondo\ CONC.jpg");
 
 }
 
@@ -450,12 +450,12 @@ b {
 }
 
 .MQP {
-    background-image: url("../Image/QH/Fondo\ MQPC.jpg");
+    background-image: url("../Image/qh/Fondo\ MQPC.jpg");
 }
 
 
 .Section-QS-1 {
-    background-image: url("../Image/QH/Fondo\ QH.jpg");
+    background-image: url("../Image/qh/Fondo\ QH.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: scroll;

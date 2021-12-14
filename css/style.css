@@ -25,8 +25,7 @@ menu {
 }
 
 header.masthead {
-    /*padding-top: 15rem;
-    padding-bottom: 6rem;*/
+
     padding-left: 2rem;
     padding-right: 2rem;
     color: #fff;
@@ -50,8 +49,9 @@ header.masthead {
     font-size: 5rem;
 }
 
-.sa {
-    text-align: center;
+.header-button {
+    display: flex;
+    justify-content: center;
 }
 
 header.masthead a {
@@ -114,8 +114,6 @@ header.masthead a {
     text-align: center;
     padding-bottom: 1rem;
     padding-top: 1rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
     color: white;
 }
 
@@ -129,6 +127,8 @@ header.masthead a {
 .section-2 .text {
     font-weight: 200;
     font-size: 120%;
+    padding-left: 2rem;
+    padding-right: 2rem;
     text-align: left;
 }
 
@@ -182,7 +182,7 @@ header.masthead a {
 .section-3 .text {
     padding-top: 2rem;
     font-weight: 200;
-    font-size: 120%;
+    font-size: 1.2rem;
     text-align: left;
     padding-right: 2rem;
     padding-left: 2rem;
@@ -219,11 +219,15 @@ header.masthead a {
 
 }
 
-.section-4 .text {
+.section-4 h3 {
     font-size: 325%;
     font-weight: bold;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.section-4 p {
+    font-size: 1.5rem;
 }
 
 .section-4 img {
@@ -535,7 +539,7 @@ b {
     margin-bottom: 2rem;
     height: auto;
     width: auto;
-    max-width: 90vh;
+    max-width: 108vh;
 }
 
 .Section-QS-2 h2 {
@@ -588,6 +592,12 @@ b {
     text-decoration: none;
     color: #627482;
 }
+.footer-logos {
+    display: flex;
+    flex-flow: column;
+    justify-content: left;
+}
+
 
 .footer-logos i {
     font-size: 2rem;
@@ -608,46 +618,37 @@ b {
     padding-left: 0rem;
 }
 
-@media (max-width: 560px) {
+@media (min-width: 320px) and (max-width: 576px) {
 
     header.masthead {
-        /*padding-top: 15rem;
-        padding-bottom: 6rem;*/
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         color: #fff;
         background-image: url("../Image/Inicio1.jpg");
-        min-height: 100vh;
-        max-height: 100vh;
-        display: flex;
-        height: 100vh;
-        flex-direction: column;
         justify-content: center;
+        text-align: center;
     }
 
     .header-title h1 {
-        font-size: 4rem;
+        font-size: 3.1rem;
         margin-bottom: 2rem;
-    }
-
-    header.masthead .masthead-heading {
-        font-size: 3em;
-        font-weight: 700;
     }
 
     header.masthead a {
         background-color: #25B2e8;
         border: #25B2e8;
         border-radius: 8px;
-        margin-top: 3rem;
-
-        font-size: 1.6rem;
+        margin-top: 2rem;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        text-align: center;
     }
 
-
     .section-1 h3 {
-        text-align: left;
-        font-size: 4.5em;
+        text-align: center;
+        font-size: 4rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 
     .section-1 img {
@@ -659,20 +660,26 @@ b {
     }
 
     .section-2 h3 {
-        font-size: 4em;
+        font-size: 3.5rem;
+        text-align: center;
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 
     .section-3 h3 {
-        font-size: 3.9em;
+        text-align: center;
+        font-size: 4rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 
     .rdv h3 {
-        font-size: 3.3em;
-        font-weight: 500;
+        font-size: 3em;
+        font-weight: 600;
     }
 
     .section-5 h3 {
-        font-size: 3.8em;
+        font-size: 3.3rem;
     }
 
     .section-5 button {
@@ -822,7 +829,6 @@ b {
         text-align: left;
     }
 
-
     .Section-QS-2-2 {
         background-image: url("../Image/QS/nuestra\ historia.jpg");
         text-align: center;
@@ -833,7 +839,6 @@ b {
         background-size: cover;
         overflow: hidden;
         height: auto;
-
     }
 
     .ILT img {
@@ -847,7 +852,114 @@ b {
         margin-top: 3.5rem;
     }
 
+    footer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .footer-logos {
+        display: flex;
+        flex-flow: row;
+        justify-content: left;
+    }
+
+    .footer-logos a {
+        margin-right: 1.5rem;
+    }
 }
+
+@media (min-width:576px) and (max-width:992px) {
+    a header.masthead a {
+        background-color: #25B2e8;
+        border: #25B2e8;
+        border-radius: 8px;
+        margin-top: 3rem;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .header-button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .section-2 h3 {
+        padding-right: 2rem;
+        padding-left: 2rem;
+        text-align: center;
+    }
+
+    .section-1 a {
+        font-size: 1.4rem;
+    }
+
+    .section-1 img {
+        height: 70vh;
+    }
+    .section-1 h3{
+        padding-left: 0rem;
+    }
+    .section-1-tittle{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        display: flex;
+        flex-flow: row; 
+        justify-content: center;
+    }
+    .section-1 .text {
+        font-size: 1.5rem;
+    }
+
+    .section-2 a {
+        font-size: 1.4rem;
+
+    }
+
+    .section-2 .text {
+        font-size: 1.5rem;
+    }
+
+    .section-3 a {
+        font-size: 1.4rem;
+    }
+
+    .section-3 .text {
+        padding-top: 2rem;
+        font-weight: 200;
+        font-size: 1.5rem;
+        text-align: left;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .section-4 h3 {
+        font-size: 4rem;
+        font-weight: bold;
+
+    }
+
+    .section-4 p {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+    .footer-logos {
+        display: flex;
+        flex-flow: row;
+    }
+    .footer-logos a {
+        margin-right: 1.5rem;
+    }
+}
+
+
+
+
 
 @media screen and (max-width:400px) {
     .Section-QS-1 {

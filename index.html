@@ -15,7 +15,7 @@
 	<meta name="twitter:title" content="Rosario en Acción">
 	<meta name="twitter:description" content="Asociación civil formada por jóvenes para jóvenes que detectan los problemas de nuestro país y quiere hacer algo para cambiarlo.">
 	<meta name="theme-color" content="#ffffff">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/css.css">
 	<link rel="icon" href="Image/Favicon.png">
 	<!-- Bootstrap CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -27,6 +27,7 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body class="body">
+	<header>
 	<nav class="navbar navbar-expand-lg navbar-dark  fixed-top shadow p-3 mb-5 ">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="index.html">
@@ -53,34 +54,33 @@
 			</div>
 		</div>
 	</nav>
-
-	<header class="masthead">
-		<div class="header-title ">
+</header>
+	<section class="masthead">
+		<div class="masthead__title">
 			<h1> CAMBIAR LA ARGENTINA
 				<br> ES POSIBLE</h1>
 		</div>
 		<div class="row gx-0 ">
-			<div class="col-md-6 col-sm-6  my-auto header-button">
-				<a class="btn btn-primary" href="Quienes-Somos.html" role="button">CONOCENOS</a>
+			<div class="col-md-6 col-sm-6  my-auto buttons">
+				<a class="btn btn-primary btn--masthead" href="Quienes-Somos.html" role="button">CONOCENOS</a>
 			</div>
-			<div class="col-md-6 col-sm-6  my-auto header-button">
-				<a class="btn btn-primary" data-bs-target="#form" data-bs-toggle="modal" role="button">COLABORÁ CON
+			<div class="col-md-6 col-sm-6  my-auto buttons">
+				<a class="btn btn-primary btn--masthead" data-bs-target="#form" data-bs-toggle="modal" role="button">COLABORÁ CON
 					NOSOTROS </a>
 			</div>
 		</div>
 		</div>
-	</header>
+	</section>
 
-	<div class="section-1">
+	<section class="section1">
 		<div class="row gx-0 ">
-
 			<div class="col-md-12 col-sm-12 col-lg-6">
 				<img src="Image/Inicio2.jpg" alt="Integrantes Rosario en Accion 2020">
 			</div>
 			<div class="col-md-12 col-sm-12  col-lg-6">
-				<div class="section-1-tittle mt-5">
-				<h3 class="me-2">Quiénes </h3>
-				<h3>somos</h3>
+				<div class="tittle mt-5">
+				<h2 class="me-2">Quiénes </h2>
+				<h2>somos</h2>
 				</div>
 				<div class="text">
 					<p> Somos una Asociación Civil sin fines de lucro, que tiene por misión formar ciudadanos
@@ -90,25 +90,31 @@
 						puestos
 						clave de toma de decisiones.</p>
 				</div>
-				<a class="btn btn-primary mb-5" href="Quienes-Somos.html" role="button">CONOCE MÁS SOBRE
+				<div class="buttons">
+				<a class="btn btn-primary" href="Quienes-Somos.html" role="button">CONOCE MÁS SOBRE
 					NOSOTROS </a>
-			</div>
+				</div>
+				</div>
 
 		</div>
-	</div>
+	</section>
 
 
-	<div class="section-2">
+	<section class="section2">
 		<div class="row gx-0">
 			<div class="col-md-12 col-sm-12 col-lg-4">
-				<h3 class="mt-5 ">Qué
-				hacemos</h3>
+				<div class="tittle">
+				<h2 class="tittle--section2">Qué
+				hacemos</h2>
+			</div>
 				<p class="text">Ofrecemos una amplia gama de proyectos y productos a fin de cubrir todas las necesidades
 					y objetivos que hacen a la formación de aptitudes para el trabajo político, la toma de decisiones y
 					el liderazgo social y empresarial.
 
 				</p>
-				<a class="btn btn-primary" href="Que-hacemos.html" role="button">CONOCÉ CADA PROYECTO</a>
+				<div class="buttons">
+				<a class="btn btn-primary btn--cvi" href="Que-hacemos.html" role="button">CONOCÉ CADA PROYECTO</a>
+			</div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-lg-8 section-2-logos">
 				<div class="row gx-0  f1">
@@ -142,44 +148,46 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
-	<div class="section-3">
+	<section class="section1 section1--white">
 		<div class="row gx-0">
 			<div class="col-md-12 col-sm-12 col-lg-6">
-				<h3 class="mt-4">Red de </h3>
-				<div class="rdv">
-					<h3>voluntarios</h3>
-				</div>
+				<div class="tittle">
+				<h2 class="tittle--grey">Red de 
+				<h2 class="tittle--grey tittle--grey--1">voluntarios</h2>
+			</div>
 				<div class="text">
-					<p> Además de la formación en liderazgo y en política, consideramos importante la participación
+					<p class="text--black"> Además de la formación en liderazgo y en política, consideramos importante la participación
 						social. Por este motivo, contamos con una red de voluntarios que asiste semanalmente a los
 						barrios y los recorre a fin de acompañar y mejorar las condiciones de vida de los sectores más
 						vulnerables </p>
 				</div>
-				<a class="btn btn-primary mb-5" data-bs-target="#form" data-bs-toggle="modal" role="button">QUIERO SUMARME A
+				<div class="buttons">
+				<a class="btn btn-primary" data-bs-target="#form" data-bs-toggle="modal" role="button">QUIERO SUMARME A
 					LA RED </a>
+				</div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-lg-6 ">
 				<img src="Image/Inicio3.jpg" alt="Red de Voluntarios">
 			</div>
 		</div>
-	</div>
+	</section>
 
-	<div class="section-4">
+	<section class="section3">
 		<div class="row gx-0">
 			<div class="col-md-6 col-lg-2 d-flex align-items-center justify-content-center">
-				<div class="text">
+				<div >
 					<h3> 11 <br> Años</h3>
 				</div>
 			</div>
 			<div class="col-md-6 col-lg-4">
-				<img src="Image/icono 1.png" alt="icono ">
+				<img src="Image/icono 1.png" alt="icono">
 				<p>de trabajo social y politico de participación politica juvenil de compromiso con nuestra Argentina
 				</p>
 			</div>
 			<div class="col-md-6 col-lg-2 d-flex align-items-center justify-content-center">
-				<div class="text">
+				<div>
 					<h3>de impacto</h3>
 				</div>
 			</div>
@@ -188,20 +196,20 @@
 				<p> en la vida de +5000 personas con proyectos de formación y donaciones</p>
 			</div>
 		</div>
-	</div>
-	<div class="section-5">
+	</section>
+	<section class="section4">
 		<div class="row gx-0">
 			<div class="col-md-6">
 				<h3>Pensar</h3>
 				<h3>una <b>Argentina mejor</b></h3>
 				<h3>y hacerla <b> REALIDAD </b></h3>
 			</div>
-			<div class=" col-md-6 d-flex align-items-center justify-content-center">
-				<a class="btn btn-primary" data-bs-target="#form" data-bs-toggle="modal" role="button">DONAR </a>
+			<div class=" col-md-6 d-flex align-items-center justify-content-center buttons ">
+				<a class="btn btn-primary btn--s4" data-bs-target="#form" data-bs-toggle="modal" role="button">DONAR </a>
 
 			</div>
 		</div>
-	</div>
+	</section>
 	<div class="modal fade" id="form" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">
@@ -255,52 +263,52 @@
 			</div>
 		</div>
 	</div>
-	
-</body>
-<footer class="footer">
-			<div class="col-12">
-				<div class="row ">
-					<div class=" col-md-6 col-sm-6 col-lg-5">
-						<img src="image/lfooter.png" alt="Logo de REA">
-						<p class="mb-3 mb-lg-4 bold-text mt-sm-0 mt-5 ao"><b>Asociación Civil Rosario en Acción</b>
-						</p>
-					</div>
-					<div class=" col-md-6 col-sm-6 col-lg-3">
-						<h6 class="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
-						<ul>
-							<li><a href="index.html">Inicio</a></li>
-							<li><a href="Quienes-Somos.html">Quienes somos</a></li>
-							<li><a href="Que-hacemos.html">Que hacemos</a></li>
-							<li><a href data-bs-target="#form" data-bs-toggle="modal">Contacto</a></li>
-						</ul>
-						<h6 class="mb-3 mb-lg-4 bold-text mt-sm-0 mt-5 "><b>CONTACTO</b></h6>
-						<i class="bi bi-telephone"> (341) 155 990 421</i>
-						<br>
-						<p class="mb-1">contacto@rosarioenaccion.org</p>
-
-					</div>
-					<div class=" col-md-6 col-sm-6  col-lg-2">
-						<h6 class="mb-3 mb-lg-4 bold-text mt-sm-0 mt-5"><b>UBICACIÓN</b></h6>
-						<p class="mb-1">Rosario, Santa Fe</p>
-
-					</div>
-					<div class=" col-md-6 col-sm-4  col-lg-2">
-						<h6 class="mb-3 mb-lg-4  bold-text mt-sm-0 mt-3"><b>REDES</b></h6>
-						<div class="footer-logos">
-						<a href="https://www.instagram.com/rosarioenaccion/"><i class="bi bi-instagram"></i></a>
-				
-						<a href="https://www.facebook.com/RosarioenAccion/"><i class="bi bi-facebook"></i></a>
-					
-						<a href="https://twitter.com/RosarioenAccion?s=20"><i class="bi bi-twitter"></i></a>
-					
-						<a href=""><i class="bi bi-whatsapp"></i></a>
-					</div>
-					</div>
+	<footer class="footer">
+		<div class="col-12">
+			<div class="row gx-0 ">
+				<div class=" col-md-6 col-sm-6 col-lg-5 footer__rea">
+					<img src="image/lfooter.png" alt="Logo de REA">
+					<h6 class="mb-3 mb-lg-4 mt-sm-0">Asociación Civil Rosario en Acción
+					</h6>
 				</div>
-				<p class="copyright">&copy; Asociación Civil Rosario en Acción</p>
+				<div class=" col-md-6 col-sm-6 col-lg-3">
+					<h6 class="mb-3 mb-lg-4">MENU</h6>
+					<ul>
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="Quienes-Somos.html">Quienes somos</a></li>
+						<li><a href="Que-hacemos.html">Que hacemos</a></li>
+						<li><a href data-bs-target="#form" data-bs-toggle="modal">Contacto</a></li>
+					</ul>
+					<h6 class="mb-3 mb-lg-4 mt-sm-0 mt-5 ">CONTACTO</h6>
+					<i class="bi bi-telephone"> (341) 155 990 421</i>
+					<br>
+					<p class="mb-1">contacto@rosarioenaccion.org</p>
+
+				</div>
+				<div class=" col-md-6 col-sm-6  col-lg-2">
+					<h6 class="mb-3 mb-lg-4 mt-sm-0 mt-5">UBICACIÓN</h6>
+					<p class="mb-1">Rosario, Santa Fe</p>
+
+				</div>
+				<div class=" col-md-6 col-sm-4  col-lg-2">
+					<h6 class="mb-3 mb-lg-4   mt-sm-0 mt-3">REDES</h6>
+					<div class="footer-logos">
+					<a href="https://www.instagram.com/rosarioenaccion/"><i class="bi bi-instagram"></i></a>
+			
+					<a href="https://www.facebook.com/RosarioenAccion/"><i class="bi bi-facebook"></i></a>
+				
+					<a href="https://twitter.com/RosarioenAccion?s=20"><i class="bi bi-twitter"></i></a>
+				
+					<a href=""><i class="bi bi-whatsapp"></i></a>
+				</div>
+				</div>
 			</div>
+			<p class="copyright">&copy; Asociación Civil Rosario en Acción</p>
 		</div>
+	</div>
 </footer>
+</body>
+
 
 
 <!-- Bootstrap Bundle with Popper -->

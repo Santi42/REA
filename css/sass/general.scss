@@ -1,0 +1,79 @@
+$cPrin: #25b2e8;
+$cSecun: #98CEEF;
+$cazul: #1a25bb;
+$cvio: #4854ef;
+$cgrey:#393d42;
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.text {
+    padding-top: 1rem;
+    color: white;
+    font-weight: 200;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-right: 2rem;
+    padding-left: 2rem;
+
+    .text--black {
+        color: black;
+    }
+
+
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+
+    .btn {
+        background-color: $cPrin;
+        border: $cPrin;
+        border-radius: 8px;
+    }
+
+    .btn--masthead {
+        margin-top: 5rem;
+        font-size: 1.2rem;
+        padding: 0.5rem;
+    }
+
+    .btn--cS {
+        background-color: $cSecun;
+        border: $cSecun;
+    }
+
+    .btn--cvi {
+        margin-top: 2rem;
+        background-color: $cvio;
+        border: $cvio;
+    }
+
+    .btn--s4 {
+        background-color: #fcbe11;
+        border: #fcbe11;
+        font-weight: 600;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .btn--qs {
+        background-color: #065B78;
+        border-color: #065B78; 
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+        font-weight: 400;
+        font-size: 1.5em;
+        img {
+            height: 5vh;
+            margin-bottom: 0.2rem;
+            margin-top: 0.2rem;
+        }
+    }
+}

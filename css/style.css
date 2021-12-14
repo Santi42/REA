@@ -20,11 +20,9 @@ menu {
 
 .navbar {
     background-color: rgba(0, 0, 0, 0.9);
-
-
 }
 
-header.masthead {
+.masthead {
 
     padding-left: 2rem;
     padding-right: 2rem;
@@ -245,7 +243,6 @@ header.masthead a {
     padding-left: 2rem;
     padding-right: 2rem;
     color: white;
-
 }
 
 .section-5 b {
@@ -272,7 +269,6 @@ header.masthead a {
 .section-5 h3 {
     font-size: 4em;
     font-weight: 200;
-
 }
 
 
@@ -869,7 +865,7 @@ b {
 }
 
 @media (min-width:576px) and (max-width:992px) {
-    a header.masthead a {
+    header.masthead a {
         background-color: #25B2e8;
         border: #25B2e8;
         border-radius: 8px;

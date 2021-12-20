@@ -1,9 +1,9 @@
 .footer {
     color: #627482;
-    padding-top: 2rem;
-    padding-bottom: 0.01rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
     background-color: #272727;
-
+    
     img {
         width: 80%;
         margin-left: 5%;
@@ -48,7 +48,8 @@
 }
 
 @media (min-width: 320px) and (max-width: 576px) {
-    footer {
+    
+    .footer {
         padding-left: 1rem;
         padding-right: 1rem;
     }
@@ -65,14 +66,17 @@
 
 @media (min-width:576px) and (max-width:992px) {
 
-    footer {
-        padding-left: 1rem;
-        padding-right: 1rem;
+    .footer {
+        padding-left: 2rem;
+        padding-right: 2rem;
         img{
-            margin-left: 0;
+            margin-left: 0rem;
+        }
+        .footer__rea {
+            text-align: left;
         }
     }
-
+  
     .footer-logos {
         display: flex;
         flex-flow: row;

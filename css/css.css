@@ -585,7 +585,7 @@ ol.carousel-indicators {
 }
 
 .eco {
-  background-image: url("../../image/qh/fondoeco.jpg");
+  background-image: url("../image/qh/fondoeco.jpg");
 }
 .eco b {
   color: #467cce;
@@ -595,7 +595,7 @@ ol.carousel-indicators {
 }
 
 .con {
-  background-image: url("../../image/qh/fondocon.jpg");
+  background-image: url("../image/qh/fondocon.jpg");
 }
 .con b {
   color: white;
@@ -605,7 +605,7 @@ ol.carousel-indicators {
 }
 
 .jd {
-  background-image: url("../../image/qh/fondojd.jpg");
+  background-image: url("../image/qh/fondojd.jpg");
 }
 .jd b {
   color: #1d10d8bb;
@@ -615,7 +615,7 @@ ol.carousel-indicators {
 }
 
 .gtm {
-  background-image: url("../../image/qh/fondogtm.jpg");
+  background-image: url("../image/qh/fondogtm.jpg");
 }
 .gtm b {
   color: #1C9AD7;
@@ -625,7 +625,7 @@ ol.carousel-indicators {
 }
 
 .pci {
-  background-image: url("../../image/qh/fondopci.jpg");
+  background-image: url("../image/qh/fondopci.jpg");
 }
 .pci b {
   color: white;
@@ -635,7 +635,7 @@ ol.carousel-indicators {
 }
 
 .mqp {
-  background-image: url("../../image/qh/fondomqp.jpg");
+  background-image: url("../image/qh/fondomqp.jpg");
 }
 .mqp b {
   color: white;
@@ -645,7 +645,7 @@ ol.carousel-indicators {
 }
 
 .td {
-  background-image: url("../../image/qh/fondotd.jpg");
+  background-image: url("../image/qh/fondotd.jpg");
 }
 .td b {
   color: green;

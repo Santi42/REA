@@ -84,7 +84,7 @@ $sections: ("eco": #467cce,
 @each $section,
 $colores in $sections {
     .#{$section} {
-        background-image: url("../../image/qh/fondo#{$section}.jpg");
+        background-image: url("../image/qh/fondo#{$section}.jpg");
 
         b {
             color: $colores;

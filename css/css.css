@@ -7,7 +7,7 @@
 .text {
   padding-top: 1rem;
   color: white;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.2rem;
   text-align: left;
   padding-right: 2rem;
@@ -69,10 +69,11 @@
   background-color: #fcbe11;
   border: #fcbe11;
   font-weight: 600;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-top: 1.1rem;
+  padding-bottom: 1.1rem;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  font-size: 1.5rem;
 }
 .buttons .btn--qs {
   background-color: #065B78;
@@ -595,7 +596,7 @@ ol.carousel-indicators {
 }
 
 .con {
-  background-image: url("../image/qh/fondocon.jpg");
+  background-image: url("../image/qh/fondo\ conadir\ COLOR.jpg");
 }
 .con b {
   color: white;
@@ -605,7 +606,7 @@ ol.carousel-indicators {
 }
 
 .jd {
-  background-image: url("../image/qh/fondojd.jpg");
+  background-image: url("../image/qh/fondo\ ljdCOLOR.jpg");
 }
 .jd b {
   color: #1d10d8bb;
@@ -615,7 +616,7 @@ ol.carousel-indicators {
 }
 
 .gtm {
-  background-image: url("../image/qh/fondogtm.jpg");
+  background-image: url("../image/qh/fondo\ GTM1.jpg");
 }
 .gtm b {
   color: #1C9AD7;
@@ -625,7 +626,7 @@ ol.carousel-indicators {
 }
 
 .pci {
-  background-image: url("../image/qh/fondopci.jpg");
+  background-image: url("../image/qh/fondo\ masqpCOLOR.jpg");
 }
 .pci b {
   color: white;
@@ -635,7 +636,7 @@ ol.carousel-indicators {
 }
 
 .mqp {
-  background-image: url("../image/qh/fondomqp.jpg");
+  background-image: url("../image/qh/fondo\ PCICOLOR.jpg");
 }
 .mqp b {
   color: white;
@@ -645,7 +646,7 @@ ol.carousel-indicators {
 }
 
 .td {
-  background-image: url("../image/qh/fondotd.jpg");
+  background-image: url("../image/qh/fondo.jpg");
 }
 .td b {
   color: green;

@@ -46,7 +46,9 @@ ol.carousel-indicators {
     padding-right: 2rem;
     overflow: hidden;
     height: 90vh;
-
+    .ft{
+        height: 100% ;
+    }
     h3 {
         text-align: center;
         font-size: 3.5rem;
@@ -95,7 +97,7 @@ $colores in $sections {
         }
     }
 }
-
+/*
 @media screen and (max-width:400px) {
     .sectionqh__2 {
         max-height: none;
@@ -129,7 +131,7 @@ $colores in $sections {
         height: 110vh;
     }
 }
-
+*/
 @media (min-width: 320px) and (max-width: 576px) {
     .sectionqh {
         padding-left: 1rem;
@@ -150,13 +152,17 @@ $colores in $sections {
             font-size: 1.2rem;
 
         }
+
     }
 
     .sectionqh__2 {
         padding-left: 1rem;
         padding-right: 1rem;
         max-height: none;
-        height: none;
+        height: 0;
+        .ft{
+            height: 0 ;
+        }
 
         img {
             margin-top: 2rem;
@@ -170,6 +176,33 @@ $colores in $sections {
             font-size: 1.2rem;
             font-weight: 500;
         }
+    }
+    .eco {
+        min-height: 110vh;
+        
+    }
+    .con{
+ 
+        min-height: 110vh;
+    }
+    .jd {
+        min-height: 105vh;
+    }
+
+    .gtm {
+        min-height: 95vh;
+    }
+
+    .pci {
+        min-height: 90vh;
+    }
+    .mqp{
+        min-height: 70vh;
+        padding-bottom: 2rem;
+    }
+    .td{
+        min-height: 110vh;
+        padding-bottom: 2rem;
     }
 }
 
@@ -188,6 +221,10 @@ $colores in $sections {
         }
     }
     .sectionqh__2{
+        height: 0;
+        .ft{
+            height: 0;
+        }
         .text{
             font-size: 1.5rem;
         }
@@ -213,11 +250,36 @@ $colores in $sections {
         }
         
     }
+    .eco{
+        min-height: 105vh;
+ 
+    }
+    .con{
+        min-height: 105vh;
+
+    }
+    .jd{
+        min-height: 105vh;
+
+    }
+    .gtm{
+        min-height: 105vh;
+        padding-bottom:0rem;
+    }
     .pci{
         height: 110vh;
+        .text--pci{
+            font-size: 1.75rem;
+        }
+    }
+    .mqp{
+      
+        min-height: 75vh;
+        padding-bottom: 2rem;
     }
     .td{
-        height: auto;
-        min-height: auto;
+      
+        min-height:100vh;
+        padding-bottom: 2rem;
     }
 }

@@ -1,7 +1,6 @@
 .masthead {
     padding: 0px 2rem 0px 2rem;
-
-    color: #fff;
+    color: white;
     background-image: url("../Image/Inicio1.jpg");
     min-height: 100vh;
     max-height: 100vh;
@@ -21,10 +20,6 @@
         font-size: 5rem;
     }
 }
-
-
-
-
 .section1 {
     background-color: #98CEEF;
 
@@ -43,7 +38,7 @@
 }
 
 .section2 {
-    background-color: $cazul;
+    background-color: #1a25bb;
     text-align: center;
     height: 90vh;
 

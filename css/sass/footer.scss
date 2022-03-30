@@ -1,12 +1,12 @@
 .footer {
     color: #627482;
-    padding-top: 5rem;
+    padding-top: 3.5rem;
     padding-bottom: 3rem;
     background-color: #272727;
     
     img {
-        width: 80%;
-        margin-left: 5%;
+        width: 60%;
+        margin-left: 0;
         margin-bottom: 2rem;
     }
 
@@ -16,7 +16,9 @@
     }
 
     .footer__rea {
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     h6 {
@@ -70,10 +72,12 @@
         padding-left: 2rem;
         padding-right: 2rem;
         img{
+            width: 100%;
             margin-left: 0rem;
         }
         .footer__rea {
             text-align: left;
+            padding-right: 2rem;
         }
     }
   

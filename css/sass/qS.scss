@@ -85,8 +85,9 @@
     height: 90vh;
     color: #393d42;
     text-align: center;
-    padding-top: 4rem;
-
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+ 
     .tittle {
         margin-top: 0;
         display: flex;
@@ -111,11 +112,12 @@
     }
 
     img {
-        width: 40%;
+        width: 9rem;
     }
 
     .l2 {
-        padding-top: 6rem;
+        padding-top: 2rem;
+
     }
 }
 

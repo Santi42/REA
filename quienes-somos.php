@@ -19,7 +19,7 @@
 		content="Asociación civil formada por jóvenes para jóvenes que detectan los problemas de nuestro país y quiere hacer algo para cambiarlo.">
 	<meta name="theme-color" content="#ffffff">
 	<link rel="stylesheet" href="css/css.css">
-	<link rel="icon" href="image/Favicon.ico"> <!-- Bootstrap CSS -->
+	<link rel="icon" href="image/favicon.ico"> <!-- Bootstrap CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
@@ -34,7 +34,7 @@
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-dark  fixed-top shadow p-3 mb-5 ">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.php">
 					<img src="image/Logo.png " height="40" alt="Logo Rosario en Acción">
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -45,13 +45,13 @@
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 						<li class="nav-item">
-							<a class="nav-link " aria-current="page" href="index.html">INICIO</a>
+							<a class="nav-link " aria-current="page" href="index.php">INICIO</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link active" href="#">QUIÉNES SOMOS</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link " href="Que-hacemos.html">QUÉ HACEMOS</a>
+							<a class="nav-link " href="que-hacemos.php">QUÉ HACEMOS</a>
 						</li>
 						<li class="nav-item" data-bs-toggle="modal" data-bs-target="#form">
 							<a class="nav-link" href="#form">CONTACTO</a>
@@ -80,20 +80,20 @@
 		<div class="row gx-0  ">
 			<div class="col-md-6 col-6 col-sm-3 buttons ">
 				<a class="btn btn-primary btn--qs" href="#NHistoria" role="button"> <img
-						src="image/QS/Logos/botón historia.png" alt="Boton Nuestra historia"> Historia</a>
+						src="image/qs/logos/bhistoria.png" alt="Boton Nuestra historia"> Historia</a>
 			</div>
 			<div class="col-md-6 col-6 col-sm-3 buttons ">
-				<a class="btn btn-primary btn--qs" href="#NValores" role="button"> <img src="image/QS/Logos/valores.png"
+				<a class="btn btn-primary btn--qs" href="#NValores" role="button"> <img src="image/qs/logos/valores.png"
 						alt="Boton nuestros valores"> Valores</a>
 			</div>
 			<!--
 			<div class="col-md-3 col-6 col-sm-3 buttons ">
-				<a class=" btn btn-primary btn--qs" href="Quienes-Somos.html" role="button"> <img
-						src="Image/QS/Logos/botón equipo.png" alt="Boton nuestro equipo"> Equipo</a>
+				<a class=" btn btn-primary btn--qs" href="quienes-somos.php" role="button"> <img
+						src="Image/qs/Logos/botón equipo.png" alt="Boton nuestro equipo"> Equipo</a>
 			</div>
 			<div class="col-md-3 col-6 col-sm-3 buttons">
-				<a class="btn btn-primary btn--qs" href="Quienes-Somos.html" role="button"> <img
-						src="Image/QS/Logos/botón impacto.png " alt="boton de impacto"> Impacto</a>
+				<a class="btn btn-primary btn--qs" href="quienes-somos.php" role="button"> <img
+						src="Image/qs/Logos/botón impacto.png " alt="boton de impacto"> Impacto</a>
 			</div>-->
 		</div>
 	</div>
@@ -130,7 +130,7 @@
 			</div>
 			<div class="col-md-6 sectionqs2__bimg">
 				<div class="ILT">
-					<img class="img" src="image/QS/linea de tiempotransp.png" alt="Linea de tiempo">
+					<img class="img" src="image/qs/linea de tiempotransp.png" alt="Linea de tiempo">
 				</div>
 			</div>
 		</div>
@@ -145,29 +145,29 @@
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 col-lg-3 my-auto col-xs-2">
-					<img src="image/QS/nv/c-c.png" alt="">
+					<img src="image/qs/nv/c-c.png" alt="">
 					<h4>Compromiso <br> ciudadano</h4>
 				</div>
 				<div class="col-md-3 col-sm-6 col-lg-3 my-auto col-xs-2">
-					<img src="image/QS/nv/diginidad.png" alt="">
+					<img src="image/qs/nv/diginidad.png" alt="">
 					<h4>Dignidad de la <br>persona humana</h4>
 				</div>
 			</div>
 			<div class="row gx-0 l2">
 				<div class="col-md-3 col-sm-6 col-lg-3 my-auto col-xs-2">
-					<img src="image/QS/nv/formacion2.png" alt="">
+					<img src="image/qs/nv/formacion2.png" alt="">
 					<h4>Formación</h4>
 				</div>
 				<div class="col-md-3 col-sm-6 col-lg-3  my-auto col-xs-2">
-					<img src="image/QS/nv/bien común.png" alt="">
+					<img src="image/qs/nv/biencomun.png" alt="">
 					<h4>Bien común</h4>
 				</div>
 				<div class="col-md-3 col-sm-6 col-lg-3 my-auto col-xs-2">
-					<img src="image/QS/nv/profesionalismo.png" alt="">
+					<img src="image/qs/nv/profesionalismo.png" alt="">
 					<h4>Profesionalismo</h4>
 				</div>
 				<div class="col-md-3 col-sm-6 col-lg-3 my-auto col-xs-2">
-					<img src="image/QS/nv/bandera1.png" alt="">
+					<img src="image/qs/nv/bandera1.png" alt="">
 					<h4>Amor a la patria </h4>
 				</div>
 			</div>
@@ -240,9 +240,9 @@
 				<div class=" col-md-6 col-sm-4 col-lg-4">
 					<h6 class="mb-3 mb-lg-4">MENU</h6>
 					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="Quienes-Somos.html">Quiénes somos</a></li>
-						<li><a href="Que-hacemos.html">Qué hacemos</a></li>
+						<li><a href="index.php">Inicio</a></li>
+						<li><a href="quienes-somos.php">Quiénes somos</a></li>
+						<li><a href="que-hacemos.php">Qué hacemos</a></li>
 						<li><a href data-bs-target="#form" data-bs-toggle="modal">Contacto</a></li>
 					</ul>
 					<h6 class="mb-3 mb-lg-4 mt-sm-0 mt-5 ">CONTACTO</h6>

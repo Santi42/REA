@@ -176,7 +176,7 @@
 .masthead {
   padding: 0px 2rem 0px 2rem;
   color: white;
-  background-image: url("../Image/Inicio1.jpg");
+  background-image: url("../image/inicio1.jpg");
   min-height: 100vh;
   max-height: 100vh;
   background-repeat: no-repeat;
@@ -222,7 +222,7 @@
 }
 
 .section3 {
-  background-image: url("../Image/zextra.jpg");
+  background-image: url("../image/zextra.jpg");
   background-position: center center;
   text-align: center;
   padding-bottom: 3%;
@@ -249,7 +249,7 @@
 }
 
 .section4 {
-  background-image: url("../Image/inicio donar fondo.jpg");
+  background-image: url("../image/inicio donar fondo.jpg");
   background-size: cover;
   background-position-y: 15%;
   text-align: left;
@@ -353,7 +353,7 @@
   }
 }
 .sectionqs1 {
-  background-image: url("../Image/qh/fondoqh.jpg");
+  background-image: url("../image/qh/fondoqh.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -390,7 +390,7 @@
   text-align: right;
 }
 .sectionqs2 .sectionqs2__bimg {
-  background-image: url("../Image/QS/nuestra historia.jpg");
+  background-image: url("../image/qs/nuestra historia.jpg");
   text-align: center;
   min-height: auto;
   background-repeat: no-repeat;
@@ -586,7 +586,7 @@
   }
 }
 .sectionqh {
-  background-image: url("../Image/qh/fondoqh.jpg");
+  background-image: url("../image/qh/fondoqh.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: scroll;

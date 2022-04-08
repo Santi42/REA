@@ -34,7 +34,7 @@
 	<header>
 		<nav class="navbar navbar-expand-lg navbar-dark  fixed-top shadow p-3 mb-5 ">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.php">
 					<img src="image/Logo.png " height="40" alt="Logo Rosario en Acción">
 				</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -48,10 +48,10 @@
 							<a class="nav-link active" aria-current="page" href="#">INICIO</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="Quienes-Somos.html">QUIÉNES SOMOS</a>
+							<a class="nav-link" href="quienes-somos.php">QUIÉNES SOMOS</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="Que-hacemos.html">QUÉ HACEMOS</a>
+							<a class="nav-link" href="que-hacemos.php">QUÉ HACEMOS</a>
 						</li>
 						<li class="nav-item" data-bs-toggle="modal" data-bs-target="#form">
 							<a class="nav-link" href="#form">CONTACTO</a>
@@ -67,7 +67,7 @@
 		</div>
 		<div class="row gx-0 ">
 			<div class="col-md-6 col-sm-6  my-auto buttons">
-				<a class="btn btn-primary btn--masthead" href="Quienes-Somos.html" role="button">CONOCÉNOS</a>
+				<a class="btn btn-primary btn--masthead" href="quienes-somos.php" role="button">CONOCÉNOS</a>
 			</div>
 			<div class="col-md-6 col-sm-6  my-auto buttons">
 				<a class="btn btn-primary btn--masthead" data-bs-target="#form" data-bs-toggle="modal"
@@ -81,7 +81,7 @@
 	<section class="section1">
 		<div class="row gx-0 ">
 			<div class="col-md-12 col-sm-12 col-lg-6">
-				<img src="image/Inicio2.jpg" alt="Integrantes Rosario en Accion 2020">
+				<img src="image/inicio2.jpg" alt="Integrantes Rosario en Accion 2020">
 			</div>
 			<div class="col-md-12 col-sm-12  col-lg-6">
 				<div class="tittle mt-5">
@@ -97,7 +97,7 @@
 						clave de toma de decisiones.</p>
 				</div>
 				<div class="buttons">
-					<a class="btn btn-primary" href="Quienes-Somos.html" role="button">CONOCE MÁS SOBRE
+					<a class="btn btn-primary" href="quienes-somos.php" role="button">CONOCE MÁS SOBRE
 						NOSOTROS </a>
 				</div>
 			</div>
@@ -119,39 +119,39 @@
 
 				</p>
 				<div class="buttons">
-					<a class="btn btn-primary btn--cvi" href="Que-hacemos.html" role="button">CONOCÉ CADA PROYECTO</a>
+					<a class="btn btn-primary btn--cvi" href="que-hacemos.php" role="button">CONOCÉ CADA PROYECTO</a>
 				</div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-lg-8 section-2-logos">
 				<div class="row gx-0  f1">
 
 					<div class="col-md-4 col-sm-6 col-lg-4 my-auto col-xs-2 ">
-						<a href="Que-hacemos.html#ECO"><img src="image/Logos/ECO png 2.png" alt="Logo ECO"></a>
+						<a href="que-hacemos.php#ECO"><img src="image/Logos/ECO png 2.png" alt="Logo ECO"></a>
 					</div>
 					<div class="col-md-4 col-sm-6 col-lg-4 my-auto col-xs-2">
-						<a href="Que-hacemos.html#PCI"><img
+						<a href="que-hacemos.php#PCI"><img
 								src="image/Logos/Programas de Capacitacion para Instituciones-10.png"
 								alt="Logo Programas de Capacitacion para Instituciones"></a>
 					</div>
 					<div class="col-md-4 col-sm-6 col-lg-4 my-auto col-xs-2">
-						<a href="Que-hacemos.html#JD"><img src="image/Logos/Los Jovenes Dicen-04.png"
-								alt="Logo Los Jovenes Dicen" href="Que-hacemos.html#JD"></a>
+						<a href="que-hacemos.php#JD"><img src="image/Logos/Los Jovenes Dicen-04.png"
+								alt="Logo Los Jovenes Dicen" href="que-hacemos.php#JD"></a>
 					</div>
 					<div class="col-md-4 col-sm-6 col-lg-4 my-auto col-xs-2">
-						<a href="Que-hacemos.html#TD"><img src="image/Logos/Taller de Debate y Oratoria-04.png"
+						<a href="que-hacemos.php#TD"><img src="image/Logos/Taller de Debate y Oratoria-04.png"
 								alt="Logo Taller de Debate y Oratoria"></a>
 					</div>
 					<div class="col-md-4 col-sm-6 col-lg-4  my-auto col-xs-2">
-						<a href="Que-hacemos.html#GTM"><img src="image/Logos/Gracias a tus manos-04.png "
+						<a href="que-hacemos.php#GTM"><img src="image/Logos/Gracias a tus manos-04.png "
 								alt="Logo Gracias a tus manos"></a>
 					</div>
 					<div class="col-md-4 col-sm-6 col-lg-4 my-auto col-xs-2">
-						<a href="Que-hacemos.html#MQP"><img src="image/Logos/Mas que palabras-04.png"
+						<a href="que-hacemos.php#MQP"><img src="image/Logos/Mas que palabras-04.png"
 								alt="Logo Mas que palabras"></a>
 					</div>
 
 					<div class="col-md-6 offset-md-3 col-lg-6 mb-3 my-auto col-xs-2 ">
-						<a href="Que-hacemos.html#CON"><img src="image/Logos/CONADIR-05.png" alt="Logo Conadir"></a>
+						<a href="que-hacemos.php#CON"><img src="image/Logos/CONADIR-05.png" alt="Logo Conadir"></a>
 					</div>
 
 				</div>
@@ -180,7 +180,7 @@
 				</div>
 			</div>
 			<div class="col-md-12 col-sm-12 col-lg-6 ">
-				<img src="image/Inicio3.jpg" alt="Red de Voluntarios">
+				<img src="image/inicio3.jpg" alt="Red de Voluntarios">
 			</div>
 		</div>
 	</section>
@@ -284,9 +284,9 @@
 				<div class=" col-md-6 col-sm-4 col-lg-4">
 					<h6 class="mb-3 mb-lg-4">MENU</h6>
 					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="Quienes-Somos.html">Quiénes somos</a></li>
-						<li><a href="Que-hacemos.html">Qué hacemos</a></li>
+						<li><a href="index.php">Inicio</a></li>
+						<li><a href="quienes-somos.php">Quiénes somos</a></li>
+						<li><a href="que-hacemos.php">Qué hacemos</a></li>
 						<li><a href data-bs-target="#form" data-bs-toggle="modal">Contacto</a></li>
 					</ul>
 					<h6 class="mb-3 mb-lg-4 mt-sm-0 mt-5 ">CONTACTO</h6>

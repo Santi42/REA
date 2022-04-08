@@ -19,7 +19,7 @@
 		content="Asociación civil formada por jóvenes para jóvenes que detectan los problemas de nuestro país y quiere hacer algo para cambiarlo.">
 	<meta name="theme-color" content="#ffffff">
 	<link rel="stylesheet" href="css/css.css">
-	<link rel="icon" href="image/Favicon.ico">	<!-- Bootstrap CSS -->
+	<link rel="icon" href="image/favicon.ico">	<!-- Bootstrap CSS -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
@@ -43,13 +43,13 @@
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a class="nav-link " aria-current="page" href="index.html">INICIO</a>
+						<a class="nav-link " aria-current="page" href="index.php">INICIO</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="Quienes-Somos.html">QUIÉNES SOMOS</a>
+						<a class="nav-link" href="quienes-somos.php">QUIÉNES SOMOS</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link active" href="Que-hacemos.html">QUÉ HACEMOS</a>
+						<a class="nav-link active" href="que-hacemos.php">QUÉ HACEMOS</a>
 					</li>
 					<li class="nav-item" data-bs-toggle="modal" data-bs-target="#form">
 						<a class="nav-link" href="#form">CONTACTO</a>
@@ -173,7 +173,7 @@
 	<section class="sectionqh__2 jd" id="JD">
 		<div class="row gx-0 d-flex ft align-items-lg-center">
 			<div class="col-md-12 col-sm-12 col-lg-6 ">
-				<img src="image/Logos/Unificado/Los jóvenes dicen.png" alt="logo Los jóvenes dicen">
+				<img src="image/logos/Unificado/ljd.png" alt="logo Los jóvenes dicen">
 			</div>
 			<div class="col-md-12 col-sm-12 col-lg-6 ">
 				<div id="jdc" class="carousel slide " data-bs-ride="carousel">
@@ -416,9 +416,9 @@
 				<div class=" col-md-6 col-sm-4 col-lg-4">
 					<h6 class="mb-3 mb-lg-4">MENU</h6>
 					<ul>
-						<li><a href="index.html">Inicio</a></li>
-						<li><a href="Quienes-Somos.html">Quiénes somos</a></li>
-						<li><a href="Que-hacemos.html">Qué hacemos</a></li>
+						<li><a href="index.php">Inicio</a></li>
+						<li><a href="quienes-somos.php">Quiénes somos</a></li>
+						<li><a href="que-hacemos.php">Qué hacemos</a></li>
 						<li><a href data-bs-target="#form" data-bs-toggle="modal">Contacto</a></li>
 					</ul>
 					<h6 class="mb-3 mb-lg-4 mt-sm-0 mt-5 ">CONTACTO</h6>

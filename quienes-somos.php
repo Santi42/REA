@@ -54,7 +54,7 @@
 							<a class="nav-link " href="que-hacemos.php">QUÉ HACEMOS</a>
 						</li>
 						<li class="nav-item" data-bs-toggle="modal" data-bs-target="#form">
-							<a class="nav-link" href="#form">CONTACTO</a>
+							<a class="nav-link" href="https://wa.link/y18ap1">CONTACTO</a>
 					</ul>
 				</div>
 			</div>
@@ -177,6 +177,7 @@
 	</section>
 
 	<!-- Modal -->
+	<!--
 	<div class="modal fade" id="form" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered">
 			<div class="modal-content">
@@ -230,7 +231,7 @@
 			</div>
 		</div>
 	</div>
-
+-->
 	<footer class="footer">
 		<div class="col-12">
 			<div class="row gx-0 ">

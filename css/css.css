@@ -197,7 +197,17 @@
 
 .section1 {
   background-color: #98CEEF;
+  color: #065B78;
+} 
+.section1 .text{
+  color: #065B78;
+  font-weight: 400;
+
 }
+.section1 .tittle{
+  color: #065B78;
+}
+
 .section1 img {
   width: 100%;
   height: 90vh;
@@ -213,7 +223,7 @@
 .section2 {
   background-color: #1a25bb;
   text-align: center;
-  height: 90vh;
+  min-height: 90vh;
 }
 .section2 img {
   width: 80%;
